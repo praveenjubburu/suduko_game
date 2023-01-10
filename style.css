@@ -1,0 +1,76 @@
+html{
+    margin:0;
+    width:100%;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color:orange;
+}
+#board{
+    width:450px;
+    height:450px;
+    margin:0 auto;
+    display: flex;
+    flex-wrap:wrap;
+}
+#digits{
+    width:450px;
+    height:50px;
+    margin:0 auto;
+    display:flex;
+    flex-wrap:wrap;
+}
+hr{
+    width:500px;
+}
+.tile{
+    width:48px;
+    height:48px;
+    border:1px solid lightgray;
+    font-size:20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.number{
+    width:44px;
+    height:44px;
+    border:1px solid lightgray;
+    font-size:20px;
+    font-weight: bold;
+    margin:2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.number-selected{
+    background-color: gray;
+}
+.tile-selected{
+    background-color: whitesmoke;
+}
+.tile-row{
+    border-bottom:1px solid black;
+}
+.tilecol{
+    border-right:1px solid black;
+}
+.top{
+    font-family: cursive;
+    color:black;
+    font-size:30px;
+    letter-spacing: 2px;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    font-size:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
